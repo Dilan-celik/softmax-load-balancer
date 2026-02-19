@@ -2,7 +2,7 @@ Softmax Load Balancer
 Dağıtık sistemler için Softmax Action Selection algoritması kullanan yük dengeleyici.
 Problem
 Bir kümede K adet sunucu var. Sunucu performansları zamanla değişiyor (non-stationary). Round-Robin ve Random gibi klasik algoritmalar sunucu performansını öğrenemez.
-Bu proje, Reinforcement Learning prensiplerine dayanan Softmax algoritmasını kullanarak sunucu performansından öğrenen adaptif bir çözüm sunar.
+Bu proje, Reinforcement Learning prensiplerine dayanan Softmax algoritmasını kullanarak sunucu performansından öğrenen adaptif bir çözüm sunar..
 Özellikler
 
 Softmax (Boltzmann) Action Selection

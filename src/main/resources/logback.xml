@@ -1,0 +1,15 @@
+<configuration>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss} %-5level [%logger{20}] - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Set root level to WARN to keep console output clean during simulation -->
+    <root level="WARN">
+        <appender-ref ref="STDOUT" />
+    </root>
+
+    <!-- Enable DEBUG for algorithm internals if needed -->
+    <logger name="com.loadbalancer.algorithm" level="WARN" />
+</configuration>
